@@ -1,0 +1,8 @@
+.heroSection
+{
+    height :500px;
+    width: auto;
+    background: url('../../../assets/images/main.png')
+    no-repeat center;
+     background-size: cover;
+}

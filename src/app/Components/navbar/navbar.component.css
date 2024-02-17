@@ -1,0 +1,39 @@
+.nav
+{
+background-color: transparent;
+padding :2rem 3rem 3rem 2rem;
+
+}
+img 
+{
+    width :12rem;
+    /* margin: 3rem 0px 0px 3rem; */
+}
+.navContent
+{
+    display: flex;
+    justify-content: end;
+}
+.signInBtn
+{
+    color: white;
+    background-color: rgb(229,9,20);
+    border: 2rem;
+    border-radius: 0.3rem;
+    padding:0.3rem 1rem 0.3rem 1rem;
+}
+.signInLink
+{
+    text-decoration: none;
+    color :white;
+    font-weight: bolder;
+    text-align: center;
+}
+.signInbutton 
+{
+    margin-left:2rem !important;
+}
+.navContent
+{
+    align-items: center;
+}

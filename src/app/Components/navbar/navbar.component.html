@@ -1,0 +1,22 @@
+<nav class="nav container">
+    <div class="row w-100">
+        <div class="col-6 navLogo">
+            <img src="../../../assets/images/logo.png" alt="Logo">    
+        </div>
+        <div class="col-6 navContent" style="">
+            <form>
+
+                <div class="dropdown">
+                    <select (change)="onSelect()">
+                        <option value="none"> <img src="../../../assets/images/languageIcon.svg">English</option>
+                        <!-- <option *ngFor="let option of options" [value]="option">{{ option }}</option> -->
+                    </select>
+                </div>
+            </form>
+                
+            <div class="signInbutton">
+                <button class="signInBtn"><a class="signInLink">Sign In</a></button>   
+            </div>
+        </div>
+    </div>
+</nav>
