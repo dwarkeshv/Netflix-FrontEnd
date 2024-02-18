@@ -5,11 +5,19 @@
         </div>
         <div class="col-6 navContent" style="">
             <form>
+<!-- 
+                <div class="dropdown">
+                    <img class= "dropdownLanguageLogo" src="../../../assets/images/languageIcon.svg">
+                    <select (change)="onSelect()" class="selectDropdown" aria-label="Language selection">
+                        <option value="none">English</option>
+                        //<option *ngFor="let option of options" [value]="option">{{ option }}</option>
+                    </select>
+                </div> -->
 
                 <div class="dropdown">
-                    <select (change)="onSelect()">
-                        <option value="none"> <img src="../../../assets/images/languageIcon.svg">English</option>
-                        <!-- <option *ngFor="let option of options" [value]="option">{{ option }}</option> -->
+                    <select class="selectDropdown" (change)="onSelect()" aria-label="Language selection">
+                      <option value="en">English</option>
+                      <option value="hi">हिंदी</option>
                     </select>
                 </div>
             </form>
