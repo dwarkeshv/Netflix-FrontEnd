@@ -1,9 +1,8 @@
 .heroSection
 {
     height :100vh;
-    width: auto;
-    background: url('../../../assets/images/main.png')
-    no-repeat center;
+    width: 100vw;
+    background: url('../../../assets/images/main.png') ;
      background-size: cover;
 }
 .heroSection::before {
@@ -11,10 +10,56 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background: rgba(0, 0, 0, 0.5); /* Adjust the last value to control darkness (0 is transparent, 1 is solid black) */
     z-index: 1; /* Ensure it sits above the background image but below content */
+}
+.heroContent
+{
+    color: white;
+    position: relative;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+.heroHeading1
+{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.heroPargraph1
+{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.heroPargraph1
+{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.inputEmail
+{
+    line-height: 1.5;
+    font-size: 1rem;
+    background-color: transparent;
+    color: white;
+    border: 0.1rem solid #767676;
+    padding: 1rem;
+    width: 25rem;
+}
+.btnEmail
+{
+    background-color: rgb(229,9,20);
+    color : white;
+}
+.formEmail
+{
+    text-align: center;
 }
 app-navbar
 {

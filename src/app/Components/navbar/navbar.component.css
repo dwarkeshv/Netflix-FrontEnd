@@ -1,122 +1,82 @@
 .nav
 {
 background-color: transparent;
-padding :2rem 3rem 3rem 2rem;
+padding :1rem 3rem 1rem 2rem;
 
 }
-img 
+.logo
 {
-    width :22rem;
-    /* margin: 3rem 0px 0px 3rem; */
+    /* width :22rem;       my laptop */
+    width :10rem;       /* office laptop*/
+    height: 2.5rem;
 }
 .navContent
 {
     display: flex;
     justify-content: end;
+    align-items: center;
 }
 .signInBtn
 {
+    width:5.1rem;
+    height: 2rem;
     color: white;
     background-color: rgb(229,9,20);
     border: 2rem;
     border-radius: 0.3rem;
-    padding:0.3rem 1rem 0.3rem 1rem;
 }
+
 .signInLink
 {
     text-decoration: none;
     color :white;
-    font-weight: bolder;
+    font-weight: 600;
     text-align: center;
 }
-.signInbutton 
+.signInbutton
 {
     margin-left:2rem !important;
 }
-.navContent
-{
-    align-items: center;
-}
-/* .selectDropdown
-{
-    width:10rem;
-    height: 3rem;
-    background-color: black;
 
+.selectDropdown
+{
+    width:8rem;
+    height: 2rem;
+    background-color: transparent;
     color: white;
-    padding :0rem 0.5rem 0rem 0.5rem;
-    border: 0px;
     font-size: large;
     font-weight: 600;
-}
-.selectDropdown :active :focus 
-{
+    padding-left: 2rem; /* Adjust as needed */
+    background-repeat: no-repeat;
+    background-position: 3px center; /* Adjust as needed */
+    background-image: url('../../../assets/images/languageIcon.svg'); /* Path to your image */
+    outline: none; /* Remove the outline */
     border: 0px;
-} */
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-    font-size: 16px; /* Adjust as needed */
-  }
-  
-  .selectDropdown {
-    -webkit-appearance: none; /* Removes default Chrome and Safari style */
-    -moz-appearance: none; /* Removes default style Firefox */
-    appearance: none; /* Removes default standard style */
-    background: black url('../../../assets/images/languageIcon.svg') no-repeat 10px center; /* Adjust the path to your icon */
-    border: 1px solid #000; /* Adjust as needed */
-    padding-left: 40px; /* Make room for the icon */
-    color: white;
-    height: 2.5rem; /* Adjust as needed */
-    border-radius: 0; /* Optional: if you want square corners */
-    background-size: 20px; /* Size of the icon */
-    cursor: pointer;
-    text-indent: 0.01px; /* Trick to hide the default arrow in some browsers */
-    text-overflow: ""; /* Trick to hide the default arrow in some browsers */
-  }
-  
-  /* Custom arrow */
-  .dropdown::after {
-    content: '\25BC';
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translateY(-50%);
-    color: white;
-    pointer-events: none;
-  }
-  
-  /* Hiding the select arrow for IE10/IE11 */
-  .selectDropdown::-ms-expand {
-    display: none;
-  }
-  
-  /* Focus styles */
-  .selectDropdown:focus {
-    outline: none;
-    border-color: #5b9dd9; /* Or any other color you prefer for the focus */
-  }
-  
-.signInBtn
-{
-    width:7rem;
-    height: 3rem;
 }
 
-.dropdownLanguageLogo
-{
-
-    width: 2.7rem;
-    height: inherit;
-    padding :0rem 0.5rem 0rem 0.5rem;
-    
+.selectDropdown option[selected] {
+    background-color: transparent;
 }
 
+.selectDropdown option
+{
+    color: black;
+    /* width: 6rem; */
+    padding-left: 2rem;
+}
 .dropdown
 {
-    border: 0.1rem solid white;
-    border-radius: 0.5rem;
+    border: 0.1rem solid #767676;
     background-color: black;
     padding :0rem 0.5rem 0rem 0.5rem;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding: 0.2rem; /* Padding on all sides */
 }
+
+
+
+  
+ 
+  
+  

@@ -1,23 +1,14 @@
 <nav class="nav container">
     <div class="row w-100">
         <div class="col-6 navLogo">
-            <img src="../../../assets/images/logo.png" alt="Logo">    
+            <img class="logo" src="../../../assets/images/logo.png" alt="Logo">    
         </div>
         <div class="col-6 navContent" style="">
             <form>
-<!-- 
-                <div class="dropdown">
-                    <img class= "dropdownLanguageLogo" src="../../../assets/images/languageIcon.svg">
-                    <select (change)="onSelect()" class="selectDropdown" aria-label="Language selection">
-                        <option value="none">English</option>
-                        //<option *ngFor="let option of options" [value]="option">{{ option }}</option>
-                    </select>
-                </div> -->
-
                 <div class="dropdown">
                     <select class="selectDropdown" (change)="onSelect()" aria-label="Language selection">
-                      <option value="en">English</option>
-                      <option value="hi">हिंदी</option>
+                        <option class="languageOption" value="en" selected>English</option>
+                      <option class="languageOption" value="hi">हिंदी</option>
                     </select>
                 </div>
             </form>
