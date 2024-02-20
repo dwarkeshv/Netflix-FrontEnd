@@ -35,31 +35,62 @@
 {
     font-size: 1.5rem;
     font-weight: 400;
+    margin-top: 16px;
 }
-.heroPargraph1
+.heroPargraph2
 {
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.5;
+    margin-top: 12px;
+    margin-bottom:21px;
 }
 .inputEmail
 {
     line-height: 1.5;
     font-size: 1rem;
-    background-color: transparent;
+    /* background-color: transparent; */
     color: white;
     border: 0.1rem solid #767676;
     padding: 1rem;
     width: 25rem;
+    background-color: black;
+    opacity: 0.53;
 }
+.inputEmail:focus + label::after {
+    background-color: transparent; /* Change this to your desired background color */
+    font-size: medium;
+}
+.inputEmail:focus + label {
+    font-size: 0.9rem;
+}
+
+
 .btnEmail
 {
     background-color: rgb(229,9,20);
     color : white;
+    margin-left:1.5rem ;
+    border: 0px;
+    border-radius: 0.25rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    min-height: 3.5rem;
+    height: max-content;
+    padding: 0.75rem 1.5rem;
+
 }
 .formEmail
 {
     text-align: center;
+}
+.iconGreater
+{
+    width: 1.5rem;
+    height: inherit;
+    margin-left: 0.5rem;
+    margin-right: 0rem;
+    margin-bottom: 0.27rem;
 }
 app-navbar
 {

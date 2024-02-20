@@ -1,9 +1,9 @@
 <nav class="nav container">
     <div class="row w-100">
         <div class="col-6 navLogo">
-            <img class="logo" src="../../../assets/images/logo.png" alt="Logo">    
+            <img class="logo" src="../../../assets/images/logo.svg" alt="Logo">    
         </div>
-        <div class="col-6 navContent" style="">
+        <div class="col-6 navContent">
             <form>
                 <div class="dropdown">
                     <select class="selectDropdown" (change)="onSelect()" aria-label="Language selection">
@@ -14,7 +14,8 @@
             </form>
                 
             <div class="signInbutton">
-                <button class="signInBtn"><a class="signInLink">Sign In</a></button>   
+                    <!-- <button class="signInBtn"><a class="signInLink">Sign In</a></button>     -->
+                    <button class="signInBtn" (click)="goToPage()">Sign In</button>   
             </div>
         </div>
     </div>
